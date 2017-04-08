@@ -1,0 +1,31 @@
+{
+  "esnext": true,
+  "bitwise": true,
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "forin": true,
+  "immed": true,
+  "indent": 2,
+  "nonew": true,
+  "newcap": true,
+  "noarg": true,
+  "nonbsp": true,
+  "quotmark": "both",
+  "undef": true,
+  "unused": true,
+  "maxparams": 6,
+  "maxdepth": 3,
+  "maxstatements": 12,
+  "maxcomplexity": 6,
+  "maxlen": 120,
+  "globals": {
+    "process": true,
+    "exports": true,
+    "require": true,
+    "module": true,
+    "console": true,
+    "describe": true,
+    "it": true
+  }
+}
