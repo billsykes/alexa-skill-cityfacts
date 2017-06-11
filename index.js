@@ -18,6 +18,21 @@ const handlers = {
     const index = Math.floor(Math.random() * facts.length);
 
     this.emit(':tell', facts[index]);
+  },
+
+  'AMAZON.HelpIntent': function() {
+    const text = 'You can say tell me a fact, or, you can say exit... What can I help you with?',
+          reprompt = 'What can I help you with?';
+
+    this.emit(':ask', text, reprompt);
+  },
+
+  'AMAZON.CancelIntent': function() {
+    this.emit(':tell', 'Goodbye!');
+  },
+
+  'AMAZON.StopIntent': function() {
+    this.emit(':tell', 'Goodbye!');
   }
 };
 
