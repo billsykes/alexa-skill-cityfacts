@@ -13,6 +13,7 @@
   "author": "Bill Sykes",
   "license": "ISC",
   "dependencies": {
-    "alexa-sdk": "^1.0.7"
+    "alexa-sdk": "^1.0.7",
+    "voicelabs": "^1.0.1"
   }
 }
